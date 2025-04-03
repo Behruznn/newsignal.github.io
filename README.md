@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
@@ -589,61 +590,7 @@
 		</style>
 	</head>
 	<body>
-		<header>
-			<img src="./static/logo.png" alt="Logo" />
-			<span>BLUME</span>
-		</header>
-		<div id="About" class="tabcontent">
-			<img
-				id="aboutGif"
-				src="./static/welcome.gif"
-				alt="Описание GIF"
-				class="about-gif"
-			/>
-		</div>
-		<div id="Contact" class="tabcontent">
-			<div class="image-container">
-				<h2 class="title">GAME PICKER</h2>
-				<img src="./static/secret.png" alt="Secret Image" />
-			</div>
-			<p id="device-output" class="device-info">The device is not identified</p>
-			<button onclick="detectDevice()" class="detect-button">
-				Identify the device
-			</button>
-			<button onclick="startGame()" class="start-button">Start</button>
-			<div id="modal" class="modal">
-				<div class="modal-content">
-					<button class="close-button" onclick="closeModal()">&times;</button>
-					<h2 style="text-align: center">Instructions</h2>
-					<div class="carousel">
-						<div
-							class="slides"
-							style="width: 200%; transition: transform 0.5s ease"
-						>
-							<div class="slide" style="width: 50%; float: left">
-								<img src="./static/inst1.jpg" alt="Инструкция 1" />
-							</div>
-							<div class="slide" style="width: 50%; float: left">
-								<img src="./static/inst2.jpg" alt="Инструкция 2" />
-							</div>
-						</div>
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-						<div class="dots-container">
-							<span class="dot" onclick="currentSlide(1)"></span>
-							<span class="dot" onclick="currentSlide(2)"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="miniModal" class="modal-mini">
-				<div class="modal-content-mini">
-					<button class="close-button-mini" onclick="closeMiniModal()">
-						&times;
-					</button>
-				</div>
-			</div>
-		</div>
+		
 		<div id="Games" class="tabcontent" style="display: block">
 			<div class="row">
 				<div class="game">
@@ -711,41 +658,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="game secret-game">
-					<img class="secretimg" src="./static/secret.png" alt="???" />
-					<div class="game-info">
-						<h3>SOON...</h3>
-					</div>
+				
 				</div>
 			</div>
 		</div>
-		<div class="tab">
-			<button
-				class="tablinks about-icon"
-				data-tab="About"
-				onclick="openTab(event, 'About', this)"
-			>
-				<img src="./static/tg.png" alt="О нас" />
-			</button>
-			<button
-				class="tablinks games-icon"
-				data-tab="Games"
-				onclick="openTab(event, 'Games', this)"
-			>
-				<img src="./static/game.png" alt="Игры" />
-			</button>
-			<button
-				class="tablinks contact-icon"
-				data-tab="Contact"
-				onclick="openTab(event, 'Contact', this)"
-			>
-				<img src="./static/money.png" alt="Контакты" />
-			</button>
-		</div>
-		<canvas id="particleCanvas"></canvas>
-		<audio id="aboutAudio" src="/static/gif.mp3"></audio>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+	
 		<script>
 			document.addEventListener('DOMContentLoaded', function () {
 				let gamesButton = document.querySelector('.tablinks.games-icon')
