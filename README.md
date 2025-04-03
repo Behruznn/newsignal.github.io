@@ -1,5 +1,3 @@
-# newsignal.github.io
-
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
@@ -602,16 +600,6 @@
 				alt="Описание GIF"
 				class="about-gif"
 			/>
-			<div class="about-text">
-				<h2>BLUME</h2>
-				<span class="typing-text"></span>
-				<button
-					onclick="window.location.href='https://t.me/+RG8kgI9AHSMwYTUy';"
-					class="about-button"
-				>
-				Go to Telegram
-				</button>
-			</div>
 		</div>
 		<div id="Contact" class="tabcontent">
 			<div class="image-container">
