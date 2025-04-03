@@ -615,7 +615,7 @@
 					<img src="./static/3.png" alt="Mines Preview" />
 					<div class="game-info">
 						<h3>Lucky Jet</h3>
-						<a href="http://behruznn.github.io/luckyjet.github.io/lucky_jet.html">
+						<a href="https://incash.su/gameapp9game/lucky/index.html">
 							<button>Open</button>
 						</a>
 					</div>
