@@ -1,6 +1,5 @@
 # newsignal.github.io
 
-<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
@@ -681,7 +680,7 @@
 					<img src="./static/3.png" alt="Mines Preview" />
 					<div class="game-info">
 						<h3>Lucky Jet</h3>
-						<a href="https://onezelenka.github.io/Blume7Games/lucky/">
+						<a href="https://onezelenka.github.io/BlumeSoftware/lucky_jet.html?lang=ru">
 							<button>Open</button>
 						</a>
 					</div>
