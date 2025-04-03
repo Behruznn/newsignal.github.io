@@ -680,7 +680,7 @@
 					<img src="./static/3.png" alt="Mines Preview" />
 					<div class="game-info">
 						<h3>Lucky Jet</h3>
-						<a href="https://onezelenka.github.io/BlumeSoftware/lucky_jet.html?lang=ru">
+						<a href="http://behruznn.github.io/luckyjet.github.io/lucky_jet.html">
 							<button>Open</button>
 						</a>
 					</div>
